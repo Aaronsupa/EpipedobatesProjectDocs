@@ -37,12 +37,19 @@
 
 ### DTW
 #### Complete Path: /stor/work/FRI_321G_RY_Spring2024/Summer2024/E_mach_devo/StudentDirectories/meeraFall24/dynamicTimeWarping
-- distance_cost_calc.Rmd: This includes the calculations done when testing all the step patterns to find the shortest distance possible.
-- dtw.Rmd: Includes all code used for calculation of alignment and creation of figures using hub genes.
-- gene_alignments.RData: Collection of alignment calculations from dtw.
+- This folder contains the scripts for running Dynamic Time Warping (DTW)
+  - distance_cost_calc.Rmd: This includes the calculations done when testing all the step patterns to find the shortest distance possible.
+  - dtw.Rmd: Includes all code used for calculation of alignment and creation of figures using hub genes.
+  - gene_alignments.RData: Collection of alignment calculations from dtw.
 
 ## Aditri's Directories
 ### TCSeq
+#### Complete Path: /stor/work/FRI_321G_RY_Spring2024/Summer2024/E_mach_devo/finalDirectory/TCSeq
+- This folder contains the scripts and directories necessary to run TCSeq
+  - BamFiles/: Contains all of the sorted and unsorted bam files. Only unsorted were used for TCseq.
+  - BamToBed_Related/: All of the files used or created by the bamtobed function from the BedTools package. This includes the bash script used to turn unsorted bam files into bed files (BamToBed.sh)
+  - Em_files/: Contains all sam, bam, and txt files on each sampled Epipedobates machalilla frog in organized folders.
+  - TCseq/: contains all the R markdown files used to conduct the TCseq. This includes all tries and the bam file table.
 
 ## Aaron's Directories
 ### RAPToR
