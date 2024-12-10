@@ -11,6 +11,8 @@
 - This folder contains the raw and normalized gene counts for various species used in our research
   - Xenopuslaevis_expression/: This folder contains csv files for Xenopus Laevis counts
   - Xenopustropicalis_expression/: This folder contains csv files for Xenopus Tropicalis counts
+  - Dendrobatids_TagSeq2022.csv: Dendrobatid tag seq data
+  - Emach_rawcounts.csv: E. Mach raw counts data csv; copied from /E_mach_devo/data directory
 
 ### Metadata
 #### Complete Path: /stor/work/FRI_321G_RY_Spring2024/Summer2024/E_mach_devo/data
@@ -21,10 +23,28 @@
   - module_membership.csv: Each gene and their module membership scores from WGCNA
   - top_5.csv: The top 5% expressed genes
 
-### myTAI
+## Meera's Directories
 
+### myTAI
+#### Complete Path: /stor/work/FRI_321G_RY_Spring2024/Summer2024/E_mach_devo/StudentDirectories/meera_myTAI_successful 
+- This folder contains the scripts for running myTAI
+  - myTAI4.Rmd: Code for the successful iteration of the phylostratigraphy
+  - createPSmap.pl: Downloaded from phylostratigraphy tutorial and is necessary to run it.
+  - ParseXMLtoPS.jar: Downloaded from phylostratigraphy tutorial and is necessary to run it.
+  - phyloBlastDB_Drost_Gabel_Grosse_Quint.fa.tbz: Downloaded from phylostratigraphy tutorial and is necessary to run it.
+  - XT_phylostratigraphy.xlsx: Final output of phylostratigraphy for the Xenopus Tropicalis IDs WGCNA and myTAI
+  - crossover.Rmd: Comparison done with the phylostratigraphy results and previous WGCNA modules
+
+### DTW
+#### Complete Path: /stor/work/FRI_321G_RY_Spring2024/Summer2024/E_mach_devo/StudentDirectories/meeraFall24/dynamicTimeWarping
+- distance_cost_calc.Rmd: This includes the calculations done when testing all the step patterns to find the shortest distance possible.
+- dtw.Rmd: Includes all code used for calculation of alignment and creation of figures using hub genes.
+- gene_alignments.RData: Collection of alignment calculations from dtw.
+
+## Aditri's Directories
 ### TCSeq
 
+## Aaron's Directories
 ### RAPToR
 #### Complete Path: /stor/work/FRI_321G_RY_Spring2024/Summer2024/E_mach_devo/StudentDirectories/aaronDir/code/RAPToR
 - This folder contains the scripts used to run RAPToR
